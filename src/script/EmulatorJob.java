@@ -24,7 +24,7 @@ public class EmulatorJob extends SwingWorker<Void, Void>{
 		this.images = new ArrayList<File>();
 		em_inputDir = "/sdcard/PixelKnot/";
 		em_outputDir = "/data/user/0/info.guardianproject.pixelknot/cache/";
-		pc_outputDir = "out/"+id+"/";
+		pc_outputDir = Settings.outputDir;
 		message = "Hello";
 		password = "123456";
 		File pcOutDir = new File(pc_outputDir);
